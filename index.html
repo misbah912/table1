@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table-1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="topnav">
+        <label class="logged-in">Logged in as Greatescape</label>
+        <label class="date-day">Wednesday,</label>
+        <label for="date-month">March</label>
+        <label class="date">29,</label>
+        <label class="year">2023</label>
+        <a class="log-out" href="#">Log Out</a>
+    </nav>
+    <nav class="nav-2">
+        <div class="redeem-vouchers">Redeem Vouchers</div>
+        <div class="report">Reports</div>
+    </nav>
+    <div class="orders">Orders</div>
+    <div class="status">
+        <label class="page">Page</label>
+        <input type="number" class="pg-no">
+        <label class="out-of-pages">of 41 pages |</label>
+        <label class="view">View</label>
+        <input type="number" min="1" max="100" value="1" class="view-page-no">
+        <label class="per-page">per page |</label>
+        <label class="total-records-found">Total 811 records found |</label>
+        <label class="export-to"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z"/>
+            <path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
+          </svg> Export to:</label>
+        <select class="file-type">
+            <option>CSV</option>
+            <option>PDF</option>
+        </select>
+        <button class="export">Export</button>
+        <button class="reset-filter">Reset Filter</button>
+        <button class="search">Search</button>
+    </div>
+    <table>
+		<thead>
+            <tr>
+                <label class="select-visible">Select Visible |</label>
+                <label class="unselect-visible"> Unselect Visible |</label>
+                <label class="items-selected"> 0 items selected</label>
+                <label class="actions"> Actions</label>
+                <select class="actions-options" id=""></select>
+                <button class="submit">Submit</button>
+            </tr>
+            <tr>
+                <th></th>
+                <th>Order #</th>
+                <th>Purchased From(Store)</th>
+                <th>Purchased On</th>
+                <th>Bill to Name</th>
+                <th>Email Id</th>
+                <th>Mobile No.</th>
+                <th>Product</th>
+                <th>Ticket Details</th>
+                <th>Activity Date</th>
+                <th>Subtotal</th>
+                <th>Order Source</th>
+                <th>Voucher Code</th>
+            </tr>
+			<tr>
+				<th>
+                    <select class="any">
+                        <option>Any</option>
+                    </select>
+                </th>
+				<th><input type="text" class="order-no"></th>
+				<th>
+                    <select class="purchased-from">
+                        <option></option>
+                    </select>
+                </th>
+				<th>
+                    <label class="purchased-on-from">From:</label>
+                    <input type="text" class="purchased-on-from-input">
+                    <label class="purchased-on-to">To:</label>
+                    <input type="text" class="purchased-on-to-input">
+                </th>
+                <th>
+                    <input type="text" class="bill-to-name-input">
+                </th>
+                <th>
+                    <input type="text" class="email-id-input">
+                </th>
+                <th></th>
+                <th>
+                    <input type="text" class="product-input">
+                </th>
+                <th>
+                    <input type="text" class="ticket-details-input">
+                </th>
+                <th>
+                    <label class="activity-date-from">From:</label>
+                    <input type="text" class="activity-date-from-input">
+                    <label class="activity-date-to">To:</label>
+                    <input type="text" class="activity-date-to-input">
+                </th>
+                <th>
+                    <label class="subtotal-from">From:</label>
+                    <input type="text" class="subtotal-from-input">
+                    <label class="subtotal-to">To:</label>
+                    <input type="text" class="subtotal-to-input">
+                </th>
+                <th>
+                    <select class="order-source">
+                        <option></option>
+                    </select>
+                </th>
+                <th>
+                    <input type="text" class="voucher-code">
+                </th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><input type="checkbox"></td>
+				<td>465576762</td>
+				<td>Main Website Store</td>
+				<td>Mar 23,2022 12:32:27 PM</td>
+                <td>Hrithik Kothari</td>
+                <td>sheetal.r@tripxoxo.com</td>
+                <td>6709623784</td>
+                <td>The Great Escape Water Park</td>
+                <td>Package:Adult 2</td>
+                <td>Mar 24, 2022</td>
+                <td>Rs 1,060.00</td>
+                <td>Web</td>
+                <td>2BAD660D</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox"></td>
+				<td>465576762</td>
+				<td>Main Website Store</td>
+				<td>Mar 23,2022 12:32:27 PM</td>
+                <td>Hrithik Kothari</td>
+                <td>sheetal.r@tripxoxo.com</td>
+                <td>6709623784</td>
+                <td>The Great Escape Water Park</td>
+                <td>Package:Adult 2</td>
+                <td>Mar 24, 2022</td>
+                <td>Rs 1,060.00</td>
+                <td>Web</td>
+                <td>2BAD660D</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox"></td>
+				<td>465576762</td>
+				<td>Main Website Store</td>
+				<td>Mar 23,2022 12:32:27 PM</td>
+                <td>Hrithik Kothari</td>
+                <td>sheetal.r@tripxoxo.com</td>
+                <td>6709623784</td>
+                <td>The Great Escape Water Park</td>
+                <td>Package:Adult 2</td>
+                <td>Mar 24, 2022</td>
+                <td>Rs 1,060.00</td>
+                <td>Web</td>
+                <td>2BAD660D</td>
+			</tr>
+            <tr>
+                <td><input type="checkbox"></td>
+				<td>465576762</td>
+				<td>Main Website Store</td>
+				<td>Mar 23,2022 12:32:27 PM</td>
+                <td>Hrithik Kothari</td>
+                <td>sheetal.r@tripxoxo.com</td>
+                <td>6709623784</td>
+                <td>The Great Escape Water Park</td>
+                <td>Package:Adult 2</td>
+                <td>Mar 24, 2022</td>
+                <td>Rs 1,060.00</td>
+                <td>Web</td>
+                <td>2BAD660D</td>
+            </tr>
+		</tbody>
+	</table>
+    
+
+</body>
+</html>

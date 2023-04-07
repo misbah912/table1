@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.topnav{
+    background-color: rgb(0, 128, 79);
+    height: 50px;
+    color: white;
+    text-align: end;
+    line-height: 50px;
+}
+.topnav .log-out{
+    margin-right: 30px;
+    margin-left: 15px;
+    color: white;
+}
+
+.topnav .date-day{
+    margin-left: 15px;
+}
+
+.nav-2{
+    height: 30px;
+    border: 2px solid black;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.redeem-vouchers{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+.report{
+    display: inline-block;
+    margin-left: 50px;
+    background-color: rgb(0, 128, 79);
+    padding: 6px 15px 6px 15px;
+    color: white;
+}
+
+.orders{
+    border-bottom: 3px solid rgb(169, 168, 168);
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    color:  rgb(0, 128, 79);
+    font-weight: 600;
+    border-radius: 2px;
+}
+
+.status{
+    margin: 20px 30px 30px 30px;
+}
+
+.status .pg-no{
+    width: 40px;
+}
+
+.status .view-page-no{
+    width: 40px;
+}
+
+.status .export-to{
+    margin-left: 415px;
+}
+
+.status .file-type{
+    width: 80px;
+    background-color: white;
+}
+
+.status .export,.reset-filter,.search, .submit{
+    padding: 3px 5px;
+    color: white;
+    background-color:rgb(0, 128, 79);
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+.submit{
+    margin: 5px;
+}
+.reset-filter{
+    margin-left: 168px;
+}
+button:active {
+    background-color: #034125;
+    box-shadow: 0 5px #029c51;
+    transform: translateY(2px);
+  }
+  
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid black;
+}
+
+th {
+    background-color: #ddd;
+}
+
+input[type=checkbox] {
+    margin: 0;
+}
+
+.select-visible, .unselect-visible{
+    color: rgb(0, 128, 79);
+}
+
+.items-selected, .actions{
+    font-weight: 600;
+}
+.actions{
+    margin-left: 765px;
+}
+.actions-options{
+    width: 200px;
+    height: 18px;
+    background-color: white;
+}
+.order-no{
+    width: 100%;
+}
+.any{
+    font-weight: 600;
+}
+
+.purchased-from,.order-source{
+    width: 100%;
+    background-color: white;
+}
+
+.purchased-on-from-input,.purchased-on-to-input,.activity-date-from-input,.activity-date-to-input,.subtotal-from-input,.subtotal-to-input{
+    width: 50px;
+}
